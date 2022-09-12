@@ -21,7 +21,7 @@ export const removeLiquidity = async (signer, removeLPTokensWei) => {
  * tokens that would be returned to the user after remoing `removeLPTokenWei`
  * amount of LP tokens
  */
-const getTokensAfterRemove = async(
+export const getTokensAfterRemove = async(
     provider,
     removeLPTokenWei,
     _ethBalance,
