@@ -31,7 +31,7 @@ export const getTokensAfterRemove = async(
         const exchangeContract = new Contract(
             EXCHANGE_CONTRACT_ADDRESS,
             EXCHANGE_CONTRACT_ABI,
-            signer
+            provider
         );
 
         const _totalSupply = await exchangeContract.totalSupply();

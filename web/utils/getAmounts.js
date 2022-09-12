@@ -51,7 +51,7 @@ export const getCDTokensBalance = async (provider, address) => {
  * @dev getLPTokensBalance: Retrieves the amount of LP tokens
  * in the account of provided `address`
  */
-export const getLPTokensBalance = async (providwer, address) => {
+export const getLPTokensBalance = async (provider, address) => {
     try {
         const exchangeContract = new Contract(
             EXCHANGE_CONTRACT_ADDRESS,
